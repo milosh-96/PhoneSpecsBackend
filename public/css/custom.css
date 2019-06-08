@@ -4,7 +4,7 @@ body {
 header {
     width: 100%;
     background: #fff;
-    border-bottom: 4px solid #2c3e50;
+    /*border-bottom: 4px solid #2c3e50;*/
     padding: 10px 0;
 
 }
@@ -18,7 +18,7 @@ header .logo {
 
 nav.menu {
     width: 100%;
-    background: #3498db;
+    background: #37c6f4;
     overflow: hidden;
 
 }
@@ -29,4 +29,40 @@ nav.menu a {
     font-size: 20px;
     font-family: 'Rubik',sans-serif;
 
+}
+
+/* Phone Item */
+.phone {
+    position: relative;
+}
+.phone .caption {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background: rgba(0,0,0,0.72);
+}
+
+.phone .caption > .phone-title {
+    font-size: 36px;
+    color: #fff;
+}
+.phone .caption > .phone-description {
+    color: #fff;
+    font-size: 18px;
+}
+.phone.thumb .caption > .phone-description {
+    font-size: 12px;
+}
+.phone.thumb .caption > .phone-title {
+    font-size: 16px;
+}
+.phone .caption > .phone-description > p {margin: 0;padding: 0;}
+
+/* Utilities */
+
+.whitebox {
+    background: #fff;
+    border:1px solid #dfdfdf;
 }
