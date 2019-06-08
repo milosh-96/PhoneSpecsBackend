@@ -1,0 +1,32 @@
+body {
+    background: #F5F5F5;
+}
+header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 4px solid #2c3e50;
+    padding: 10px 0;
+
+}
+
+header .logo {
+    font-size: 40px;
+    color: #2c3e50;
+    font-style: italic;
+    font-family: 'Oswald',sans-serif;
+}
+
+nav.menu {
+    width: 100%;
+    background: #3498db;
+    overflow: hidden;
+
+}
+nav.menu a {
+    color:#fff;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Rubik',sans-serif;
+
+}
